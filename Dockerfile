@@ -1,4 +1,4 @@
-FROM node:lts-alpine@sha256:51eff88af6dff26f59316b6e356188ffa2c422bd3c3b76f2556a2e7e89d080bd
+FROM node:lts-alpine@sha256:52928d8fea4e3d872286d724affcb96b994ac1886c88ec6259013312ce76ca62
 
 RUN addgroup -g 9999 argocd && \
     adduser -S -u 999 -G argocd -h /home/argocd argocd && \
